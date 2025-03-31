@@ -6,6 +6,7 @@
 - **[Quilbot](https://quillbot.com/)** - A paraphrasing and grammar-checking tool for better writing.  
 - **[Mindmeister](https://www.mindmeister.com/app/maps/team)** - A mind-mapping tool for brainstorming and organizing ideas.  
 - **[Vosviewer](https://www.vosviewer.com/download)** - Visualizes scientific research networks and bibliometric data.  
+- **[Mendeley](https://www.mendeley.com/)** - A reference manager and academic social network for organizing research.  
 
 ### AI Tools  
 - **[Elicit AI](https://elicit.com/)** - Uses AI to summarize and extract insights from research papers.  

@@ -1,15 +1,14 @@
-### **local LLM models**
-https://lmstudio.ai/
+### **All Over The Place Tools**  
+- **[LM Studio](https://lmstudio.ai/)** - Run and fine-tune LLMs locally on your machine.  
+- **[UndetectedGPT AI Humanizer](https://www.undetectedgpt.ai/humanizer)** - Makes AI-generated text sound more natural and undetectable. 
+- **[Site24x7 Color Picker](https://www.site24x7.com/tools/color-code-picker.html)** - A handy tool to select and identify HEX/RGB color codes. 
+- **[MkDocs](https://www.mkdocs.org/)** - Creates static documentation sites from Markdown files.  
+- **[Docsify.js](https://docsify.js.org/)** - Generates dynamic docs without a build step. 
 
-### **humanize AI content (Doubt**)
-https://www.undetectedgpt.ai/humanizer
-
-### **Color Code Picker**
-https://www.site24x7.com/tools/color-code-picker.html
-
-### **Docs Generators**
-https://www.mkdocs.org/  
-https://docsify.js.org/ 
 
 ### **Free Software**
-[VMware](https://profile.broadcom.com/web/registration): Just resgister and follow the steps [here](https://www.omgubuntu.co.uk/2024/05/vmware-workstation-pro-is-now-free-to-use) to get free official VMware Workstation Pro for Linux or windows.
+- **[VMware](https://profile.broadcom.com/web/registration)**: Just resgister and follow the steps [here](https://www.omgubuntu.co.uk/2024/05/vmware-workstation-pro-is-now-free-to-use) to get free official VMware Workstation Pro for Linux or windows.
+
+
+### **Workspace Tools**
+- **[Miro](https://miro.com/)**:  - An online collaborative whiteboard for brainstorming and visual planning.  
