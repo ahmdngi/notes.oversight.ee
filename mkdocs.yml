@@ -1,0 +1,177 @@
+---
+# Project information
+site_name: Ahmed's Notebook
+site_url: https://ahmdngi.github.io/
+site_author: Ahmed Nasr
+site_description: >-
+  my notes and guides for sysadmin and storage topics
+
+# Repository
+repo_name: ahmdngi/ahmdngi.github.io
+repo_url: https://github.com/ahmdngi/ahmdngi.github.io
+docs_dir: docs
+
+# Configuration
+theme:
+  name: material #dracula #Simple Blog
+  custom_dir: docs/overrides
+  features:
+    #Navigation
+    - navigation.instant
+    #- navigation.footer
+    - navigation.instant.progress
+    #- navigation.expand
+    - navigation.sections
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.top
+    - navigation.indexes
+    - navigation.prune
+    #Search
+    - search.share
+    - search.suggest
+    - search.highlight
+    #content
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - content.action.view
+    #- toc.integrate
+    - toc.follow
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: "Noto Sans"
+    code: "Roboto Mono"
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
+  icon:
+    repo: fontawesome/brands/git-alt
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
+# validation:
+#   links:
+#     absolute_links: relative_to_docs
+#     unrecognized_links: warn
+
+# Plugins
+plugins:
+  - search
+  - glightbox
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  #- tag
+
+# Extensions
+markdown_extensions:
+  #Python Markdown
+  - def_list
+  - admonition
+  - md_in_html
+  - attr_list
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+      linenums: false
+      linenums_style: table
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - toc:
+      title: On this page
+      permalink: "⚓︎"
+      permalink_title: Anchor link to this section for reference
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/solid/house
+      link: ahmdngi.github.io
+    - icon: fontawesome/brands/github
+      link: https://github.com/ahmdngi
+      name: Github Account
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ahmdngi/
+      name: Linkedin Account
+    - icon: fontawesome/solid/envelope
+      link: mailto:ahmdngi@hotmail.com
+
+# Page tree
+nav:
+  - Home: index.md
+  - Storage:
+      - GPFS:
+          - Notes: content/storage/gpfs-notes.md
+          #- Commands: content/storage/gpfs-commands.md
+          #- Test: content/storage/gpfs-test.md
+          - Troubleshooting: content/storage/gpfs-troubleshooting.md #add AD troubleshooting
+          #- Performance: content/storage/gpfs-performance.md
+          #- Snapshots: content/storage/gpfs-snapshots.md #snapshots and how they work
+          #- Quotas: content/storage/gpfs-quotas.md # quotas and how to set them
+          #- Backup: content/storage/gpfs-backup.md # backup and restore
+          #- GPL: content/storage/gpfs-gpl.md
+          #- CES: content/storage/gpfs-ces.md
+          - Hardware: content/storage/gpfs-hardware.md
+      #- BeeGFS: content/storage/beegfs.md
+      #- TrueNAS Scale: content/storage/scale.md
+  - SysAdmin:
+      #- content/sysadmin/index.md
+      #- Linux: content/sysadmin/linux.md
+      #- PXE: content/sysadmin/pxe.md
+      #- backup: content/sysadmin/backup-process.md
+      #- Tips: content/sysadmin/tips.md
+      - Authentication: content/sysadmin/authentication.md
+  - Library:
+      - Cool Tools: content/library/cool-tools.md
+      - Makrdown: content/library/markdown.md
+  - PhD:
+      - Tools: content/phd/phd-tools.md
+      #- Cybersecurity: content/phd/cybersecurity.md
+  - About: content/about.md
