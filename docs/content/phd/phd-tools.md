@@ -8,6 +8,14 @@
 - **[Vosviewer](https://www.vosviewer.com/download)** - Visualizes scientific research networks and bibliometric data.  
 - **[Mendeley](https://www.mendeley.com/)** - A reference manager and academic social network for organizing research.  
 
+
+
+
+### **Academic Writing**
+- **[LaTeX PhD thesis template for Cambridge](https://github.com/kks32/phd-thesis-template)** - A LaTeX / XeLaTeX / LuaLaTeX PhD thesis template for Cambridge University Engineering Department.
+- **[CyberSec Resources](https://github.com/TheHairyJ/StudentResources/blob/master/Writing.md)** - Very diverse resources for Cybersecurity students.
+ 
+
 ### AI Tools  
 - **[Elicit AI](https://elicit.com/)** - Uses AI to summarize and extract insights from research papers.  
 - **[Google Noebook LM](https://notebooklm.google.com/)** - An AI-powered notebook for organizing and synthesizing notes.  
