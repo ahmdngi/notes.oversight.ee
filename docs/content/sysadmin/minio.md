@@ -9,7 +9,6 @@ For a direct installation on a Linux system (Debian/Ubuntu based):
 
 **Download the MinIO Server package:**  
 Choose the appropriate package for your architecture and desired version from the [MinIO downloads page](https://min.io/download#/linux).
-
     ``` bash
     #Download .deb package
     wget [https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20250228095516.0.0_amd64.deb](https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20250228095516.0.0_amd64.deb) -O minio.deb
