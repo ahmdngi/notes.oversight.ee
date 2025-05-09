@@ -168,6 +168,7 @@ nav:
       #- backup: content/sysadmin/backup-process.md
       #- Tips: content/sysadmin/tips.md
       - Authentication: content/sysadmin/authentication.md
+      - MinIO: content/sysadmin/minio.md
   - Library:
       - Cool Tools: content/library/cool-tools.md
       - Makrdown: content/library/markdown.md
