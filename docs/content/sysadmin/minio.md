@@ -329,7 +329,7 @@ This setup captures all MinIO administrative trace logs into a file, managed by 
     Ensure the `mc` alias `myminio` is configured for the user who will run this script (e.g., root or minio-user).
     File: `/usr/local/bin/minio-trace.sh`
 
-    ```bash
+    ``` bash
     #!/bin/bash
     # Path to the log file
     LOG_FILE="/var/log/minio-trace.log" # Ensure this path is writable by the service user
@@ -367,14 +367,14 @@ This setup captures all MinIO administrative trace logs into a file, managed by 
     ```
 3. Reload systemd and start the service:
 
-    ```bash
+    ``` bash
     sudo systemctl daemon-reload
     sudo systemctl start minio-trace.service
     sudo systemctl enable minio-trace.service
     ```
 4. Verify the service:
 
-    ```bash
+    ``` bash
     sudo systemctl status minio-trace.service
     tail -f /var/log/minio-trace.log
     ```
@@ -398,7 +398,7 @@ This setup captures all MinIO administrative trace logs into a file, managed by 
 ### Prometheus Integration
 MinIO exposes Prometheus-compatible metrics for detailed monitoring.
 
-1. Generate a bearer token for Prometheus:
+1. **Generate a bearer token for Prometheus**:
     Run this command on a machine with mc configured to access your MinIO server.
 
     ```bash
@@ -407,12 +407,12 @@ MinIO exposes Prometheus-compatible metrics for detailed monitoring.
     ```
     Note: There are different metrics API versions (e.g., v2, v3). Ensure consistency.
 
-2. Create Prometheus configuration file (`prometheus.yml`):
+2. **Create Prometheus configuration file** (`prometheus.yml`):
     Replace `your_minio_server_ip:9000` with your MinIO server's API address and `YOUR_BEARER_TOKEN_HERE` with the token generated above.
 
     File: `prometheus/prometheus.yml` (e.g., in your docker-compose directory)
 
-    ```yml
+    ``` yaml
     global:
     scrape_interval: 15s
 
@@ -453,11 +453,9 @@ MinIO exposes Prometheus-compatible metrics for detailed monitoring.
         static_configs:
         - targets: ['your_minio_server_ip:9000']
     ```
-3. Add Prometheus to docker-compose.yml (if using Docker): 
-        
-    Update your docker-compose.yml to include Prometheus. 
-
-    ```yml
+3. **Add Prometheus to docker-compose.yml** (if using Docker):  
+   Update your docker-compose.yml to include Prometheus. 
+    ``` yaml
         version: '3.7'
 
         services:
@@ -494,9 +492,8 @@ MinIO exposes Prometheus-compatible metrics for detailed monitoring.
             - '--config.file=/etc/prometheus/prometheus.yml'
             restart: always
     ```
-    Ensure your prometheus.yml and minio-alerting.rules.yml (see below) are in a directory named prometheus next to your docker-compose.yml.
-
-4. Restart Docker Compose:
+    Ensure your prometheus.yml and minio-alerting.rules.yml (see below) are in a directory named prometheus next to your docker-compose.yml.   
+4. **Restart Docker Compose:**
     
     If you added Prometheus or updated its configuration:
 
@@ -512,8 +509,7 @@ Create alert rules for Prometheus to notify you of issues.
 Refer to [MinIO Prometheus Metrics List](https://min.io/docs/minio/linux/operations/monitoring/collect-minio-metrics-using-prometheus.html) and [Here](https://github.com/minio/minio/blob/master/docs/metrics/prometheus/list.md) for available metrics.
 
     File: `prometheus/minio-alerting.rules.yml`
-
-    ```yml
+    ``` yaml
     groups:
     - name: minio-alerts
     rules:
