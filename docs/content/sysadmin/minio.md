@@ -552,10 +552,10 @@ You'll need to configure Alertmanager separately if you want Prometheus to send 
 * Blog Post on Debugging:  [Debugging MinIO Installs](https://blog.min.io/debugging-minio-installs/)
 
 Common tools include:   
-* mc admin trace
-* mc admin logs
-* Server logs (if configured for systemd or viewed via docker logs)
-* Prometheus metrics
+* mc admin trace  
+* mc admin logs  
+* Server logs (if configured for systemd or viewed via docker logs)  
+* Prometheus metrics  
   
 ## Important Notes
 **MinIO Object Locking**  

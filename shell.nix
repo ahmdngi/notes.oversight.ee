@@ -1,3 +1,4 @@
+# Needed for nixos for developement. sets nix-shell to use mkdocs serve
 { pkgs ? import <nixpkgs> {} }:
 
 let

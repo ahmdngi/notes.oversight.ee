@@ -6,6 +6,7 @@
 - **[Docsify.js](https://docsify.js.org/)** - Generates dynamic docs without a build step. 
 - **[Eat This Much](https://www.eatthismuch.com/)** - Meal Planning.    
 - **[One Compiler](https://onecompiler.com/)** - Run and test code online.     
+- **[Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible/tree/master)** - Bash Guide    
 
 
 ### **Free Software**
