@@ -25,3 +25,8 @@
 - **[Jenni AI](https://app.jenni.ai/)** - Enhances academic writing with AI-generated suggestions.  
 - **[Statista AI](https://www.statista.com/research-ai/tool)** - Delivers data-driven insights and statistics using AI.  
 - **[Scopus AI](https://www.scopus.com/search/form.uri#scopus-ai)** - AI-enhanced research discovery and analytics tool.  
+https://parsif.al/
+
+https://voyant-tools.org/
+
+https://www.vosviewer.com/
