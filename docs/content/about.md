@@ -71,6 +71,12 @@ Email: ahmdngi@hotmail.com
 
 ## **Projects**  
 
+**Proxmox Backup Server Installation and Setup**  
+*“Datastore Configuration, Client Integration, Scheduled Backups, Remote Sync, Access Control”*  
+The project focused on deploying Proxmox Backup Server on dedicated hardware to establish a secure, high-performance backup solution for virtualized environments. The setup involved configuring backup datastores, integrating with existing Proxmox VE nodes, and implementing scheduled backup routines for virtual machines and containers. This system provides deduplicated, encrypted backups with remote sync capabilities, ensuring reliable disaster recovery, streamlined data retention, and efficient storage usage across departments.  
+
+As part of the implementation, I adapted the official Proxmox Backup Client package to function on non-Debian operating systems expanding its usability across diverse environments. These modifications, documented in my [Github](https://github.com/ahmdngi/proxmox-backup-client) repository, enabled broader platform compatibility without altering the core functionality of the client. The final system supports the Proxmox Backup API, allowing flexible scheduling, remote uploads, and encrypted backups outside of the traditional Proxmox ecosystem. The system now supports remote sync jobs, role-based access control, and routine snapshot backups, significantly improving disaster recovery capabilities and data resilience across departments.  
+
 **TrueNAS Installation and Setup**  
 *“ZFS, NFS, Storage Pools (VDEVs), RAID Configuration, Network Shares (SMB/NFS)”*  
 The project aimed to set up TrueNAS on a dedicated server, configure storage pools, and integrate it into the existing network infrastructure. The TrueNAS system serves as a centralized storage solution for backup, file sharing, and data management across different departments, providing both data integrity and high availability.  
@@ -87,6 +93,7 @@ I built an HPC resource accounting system that automatically gathers cluster job
 - **Red Hat System Administration I & II 8.2** - Redhat RHCSA & RHCE Linux Training & Certification Center.  
 - **CCNA**: Introduction to Networks - Cisco.  
 - **Data Science Professional Certificate** - IBM Coursera.  
+
 **Project Management, HSE and Green Building**    
 - **Project Management Professional (PMP)** - Project Management Institute.  
 - **NEBOSH** - UK National Examination Board in Occupational Safety and Health.  
