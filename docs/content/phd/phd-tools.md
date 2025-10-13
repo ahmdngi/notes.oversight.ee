@@ -25,8 +25,6 @@
 - **[Jenni AI](https://app.jenni.ai/)** - Enhances academic writing with AI-generated suggestions.  
 - **[Statista AI](https://www.statista.com/research-ai/tool)** - Delivers data-driven insights and statistics using AI.  
 - **[Scopus AI](https://www.scopus.com/search/form.uri#scopus-ai)** - AI-enhanced research discovery and analytics tool.  
-https://parsif.al/
-
-https://voyant-tools.org/
-
-https://www.vosviewer.com/
+- **[Parsifal](https://parsif.al/)** - A collaborative, open-source tool for planning and conducting systematic literature reviews.
+- **[Voyant Tools](https://voyant-tools.org/)** - A web-based reading and analysis environment for digital texts.
+- **[VOSviewer](https://www.vosviewer.com/)** - A software tool for constructing and visualizing bibliometric networks.
