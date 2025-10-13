@@ -174,5 +174,6 @@ nav:
       - Makrdown: content/library/markdown.md
   - PhD:
       - Tools: content/phd/phd-tools.md
+      - OSINT: content/phd/osint.md
       #- Cybersecurity: content/phd/cybersecurity.md
   - About: content/about.md
