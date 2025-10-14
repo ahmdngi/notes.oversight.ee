@@ -69,7 +69,7 @@ Email: ahmdngi@hotmail.com
 
 ---
 
-## **Projects**  
+## **IT Projects**  
 
 **Proxmox Backup Server Installation and Setup**  
 *“Datastore Configuration, Client Integration, Scheduled Backups, Remote Sync, Access Control”*  
@@ -86,6 +86,24 @@ The project aimed to set up TrueNAS on a dedicated server, configure storage poo
 *“Databases, SLURM Accounting, GPFS Block Usage”*  
 I built an HPC resource accounting system that automatically gathers cluster job and file system usage data via Python, securely transfers it over SSH, and stores primary records in a central database. It periodically updates usage metrics—such as CPU, GPU, memory, and storage then generates detailed usage and cost summaries. This setup streamlines and simplifies monitoring, billing, and resource management in HPC environments.
 
+
+---
+
+## **Academic Projects**  
+**[CyberSecPro: Hands-On Cybersecurity Education Framework](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43152860/101083594/DIGITAL?order=DESC&pageNumber=1&pageSize=50&sortBy=title&keywords=CyberSecPro&isExactMatch=true)**
+
+**Role:** Cybersecurity Researcher  
+**Timeline:** 2024-2025  
+**Techniques:** OSINT, Penetration Testing, Vulnerability Assessment, Social Engineering
+
+**Overview**
+CyberSecPro is an EU-funded initiative to enhance Higher Education Institutions' role in delivering practical, working-life cybersecurity skills. The project focuses on developing hands-on training frameworks for securing critical infrastructure and driving trustworthy digital transformation.
+
+**My Contributions**
+- Conducted comprehensive **OSINT (Open-Source Intelligence)** attacks to identify exposed attack surfaces and information leakage
+- Performed **penetration testing** on simulated critical infrastructure environments
+- Developed and executed **offensive security methodologies** for vulnerability assessment
+- Contributed to creating practical training modules for workforce cybersecurity upskilling
 ---
 
 ## **Certifications** 
@@ -107,3 +125,10 @@ I built an HPC resource accounting system that automatically gathers cluster job
 - **Arabic** -  Native proficiency. 
 - **English** -  Full professional proficiency.
 - **Estonian** -  Limited working proficiency.
+
+## **Publications** 
+- *Nasr, A. N., Leiger, R., Zaitseva-Pärnaste, I., & Kujala, P. (2024). Exploring Historical Maritime Cyber-Attacks and Introducing Maritime Security Operations Center as a Solution to Mitigate Them. Progress in Marine Science and Technology, 9, 235–245. [https://doi.org/10.3233/PMST240042](https://www.researchgate.net/publication/386584688_Exploring_Historical_Maritime_Cyber-Attacks_and_Introducing_Maritime_Security_Operations_Center_as_a_Solution_to_Mitigate_Them)*
+
+## **Preprints & Under Review** 
+- *Maritime Security Operations Center (M-SOC): Systematic literature review, research gaps and future areas to investigate*
+- *Hybrid Physics–AI Digital Twin Framework for Shared Mooring Systems in Deepwater Floating Offshore Wind Farms*
