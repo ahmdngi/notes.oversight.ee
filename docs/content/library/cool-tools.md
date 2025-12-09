@@ -15,3 +15,7 @@
 
 ### **Workspace Tools**
 - **[Miro](https://miro.com/)**  - An online collaborative whiteboard for brainstorming and visual planning.  
+
+### **Skill Upgrade**
+
+- **[TmuxAI](https://tmuxai.dev/)** - Cool extensive docs and config generator for Tmux.  
