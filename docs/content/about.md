@@ -4,24 +4,37 @@ hide:
 title: Curriculum Vitae
 ---
 # **Ahmed Nagi Nasr**  
+Cybersecurity Researcher at **Estonian Maritime Academy - TalTech**  
 System Administrator at **TalTech High Performance Computing Center**  
-Early Stage Researcher at **The Estonian Maritime Academy**  
-Email: ahmdngi@hotmail.com 
+Email: ahmed@ahmdngi.io | LinkedIn: https://www.linkedin.com/in/ahmdngi/   
 
 ---
 ## **Education** 
 
+**PhD's Degree in Maritime Cybersecurity**  
 **Tallinn University of Technology** - Tallinn, Estonia  
-*Master's Degree in Environmental Engineering and Management*  
+**Jan. 2024 - Present** 
+
+**Master's Degree in Environmental Engineering and Management**  
+**Tallinn University of Technology** - Tallinn, Estonia  
 **Sept. 2021 - Jun. 2023** | **CGPA:** 4.9  
 
-**Zagazig University** - Zagazig, Egypt  
-*Bachelor's Degree in Civil Engineering*  
+**Bachelor's Degree in Civil Engineering**  
+**Zagazig University** - Zagazig, Egypt   
 **Sept. 2009 - Jun. 2014** | **CGPA:** Good  
 
 ---
 
 ## **Experience**  
+
+**Estonian Maritime Academy - TalTech** | Cybersecurity Researcher    
+**Tallinn, Estonia** | **Jan. 2024 - Present**  
+- Advanced Threat Detection and Analysis.  
+- Integration of Cybersecurity Tools.  
+- Data Encryption and Secure Communication.  
+- Training and Awareness Programs for Maritime Cybersecurity.  
+- Continuous Monitoring and Real-Time Threat Intelligence.  
+- Cybersecurity Research and Development.  
 
 **IT College - TalTech** | System Administrator  
 **Tallinn, Estonia** | **Jun. 2022 - Present**  
@@ -33,16 +46,6 @@ Email: ahmdngi@hotmail.com
 - Documentation: Clear and concise documentation creation.  
 - Linux System Administration: Installation, configuration, troubleshooting (CentOS, Rocky, RHEL).  
 - Ansible for resources management, system configuration, depolyment and orchestration.   
-
-
-**Estonian Maritime Academy - TalTech** | Early Stage Researcher    
-**Tallinn, Estonia** | **Jan. 2024 - Present**  
-- Advanced Threat Detection and Analysis.  
-- Integration of Cybersecurity Tools.  
-- Data Encryption and Secure Communication.  
-- Training and Awareness Programs for Maritime Cybersecurity.  
-- Continuous Monitoring and Real-Time Threat Intelligence.  
-- Cybersecurity Research and Development.  
 
 **Starship** | Robot Operator  
 **Tallinn, Estonia** | **Sept. 2021 - Dec. 2022**  
@@ -97,13 +100,31 @@ I built an HPC resource accounting system that automatically gathers cluster job
 **Techniques:** OSINT, Penetration Testing, Vulnerability Assessment, Social Engineering
 
 **Overview**
-CyberSecPro is an EU-funded initiative to enhance Higher Education Institutions' role in delivering practical, working-life cybersecurity skills. The project focuses on developing hands-on training frameworks for securing critical infrastructure and driving trustworthy digital transformation.
+CyberSecPro is an EU-funded initiative (€6.7M) to enhance Higher Education Institutions' role in delivering practical, working-life cybersecurity skills. The project focuses on developing hands-on training frameworks for securing critical infrastructure and driving trustworthy digital transformation.
 
 **My Contributions**
-- Conducted comprehensive **OSINT (Open-Source Intelligence)** attacks to identify exposed attack surfaces and information leakage
+- Conducted comprehensive **OSINT (Open-Source Intelligence)** attacks to identify Vexposed attack surfaces and information leakage
 - Performed **penetration testing** on simulated critical infrastructure environments
 - Developed and executed **offensive security methodologies** for vulnerability assessment
 - Contributed to creating practical training modules for workforce cybersecurity upskilling
+
+
+
+**[DigiMaris: Smart Marine Pollution Monitoring & Digital Response Service](https://centralbaltic.eu/project/digimaris/)**  
+
+**Role:** Cybersecurity Researcher  
+**Timeline:** 2025–Present   
+**Techniques:** IoT Security, Data Integrity, Network Hardening, Risk Assessment    
+
+**Overview** 
+DigiMaris is an Interreg Central Baltic-funded project (€2.9M) focused on enhancing marine oil spill response between Finland and Estonia. The initiative develops autonomous Small Unmanned Surface Vessels (USVs) equipped with advanced sensors and a unified digital service platform to provide real-time monitoring and cross-border environmental protection in the Gulf of Finland. 
+
+**My Contributions** 
+- Security of Autonomous Systems: Evaluated the cybersecurity posture of Small Unmanned Surface Vessels (USVs), focusing on the protection of telemetry and command-and-control (C2) links.
+- Data Integrity Assurance: Developed protocols to ensure the integrity and authenticity of sensor data transmitted from mobile marine platforms to land-based digital service centers.
+- Vulnerability Assessment of IoT Sensors: Conducted security analysis on specialized environmental sensors and IoT gateways to mitigate risks of data spoofing or unauthorized access.
+- Interoperable Service Hardening: Contributed to the secure architecture of the unified digital service platform, ensuring safe cross-border data exchange between Finnish and Estonian emergency response agencies.  
+
 ---
 
 ## **Certifications** 
