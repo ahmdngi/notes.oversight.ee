@@ -5,7 +5,7 @@ let
   my-python-packages = ps: with ps; [
     mkdocs-material
     mkdocs-glightbox
-    mkdocs-minify
+    mkdocs-minify-plugin
 #    search
   ];
 in

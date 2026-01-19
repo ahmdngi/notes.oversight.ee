@@ -127,8 +127,9 @@ CyberSecPro is an EU-funded initiative to enhance Higher Education Institutions'
 - **Estonian** -  Limited working proficiency.
 
 ## **Publications** 
-- *Nasr, A. N., Leiger, R., Zaitseva-Pärnaste, I., & Kujala, P. (2024). Exploring Historical Maritime Cyber-Attacks and Introducing Maritime Security Operations Center as a Solution to Mitigate Them. Progress in Marine Science and Technology, 9, 235–245. [https://doi.org/10.3233/PMST240042](https://www.researchgate.net/publication/386584688_Exploring_Historical_Maritime_Cyber-Attacks_and_Introducing_Maritime_Security_Operations_Center_as_a_Solution_to_Mitigate_Them)*
-
-## **Preprints & Under Review** 
-- *Maritime Security Operations Center (M-SOC): Systematic literature review, research gaps and future areas to investigate*
-- *Hybrid Physics–AI Digital Twin Framework for Shared Mooring Systems in Deepwater Floating Offshore Wind Farms*
+- *Nasr, Ahmed Nagi; Leiger, Roomet; Zaitseva-Pärnaste, Inga; Kujala, Pentti (2024). Exploring Historical Maritime Cyber-Attacks and Introducing Maritime Security Operations Center as a Solution to Mitigate Them. In:  Theory and Practice of Shipbuilding: Proceedings of the 26th Symposium (SORTA 2024), Zadar, Croatia, 2-5 October 2024. (235−245).  IOS Press. (Progress in Marine Science and Technology; 9).   
+DOI: [10.3233/PMST240042](https://www.researchgate.net/publication/386584688_Exploring_Historical_Maritime_Cyber-Attacks_and_Introducing_Maritime_Security_Operations_Center_as_a_Solution_to_Mitigate_Them)*
+- *Nasr, Ahmed Nagi; Vaarandi, Risto; Zaitseva-Pärnaste, Inga; Kujala, Pentti (2025). Maritime Security Operations Center (M-SOC): Systematic Literature Review, Research Gaps and Future Areas to Investigate. TransNav the International Journal on Marine Navigation and Safety of Sea Transportation, 19 (4),  1141−1155.   
+DOI: [10.12716/1001.19.04.11](https://www.researchgate.net/publication/399258521_Maritime_Security_Operations_Center_M-SOC_Systematic_Literature_Review_Research_Gaps_and_Future_Areas_to_Investigate)* 
+- *Shahin, Mahtab;Nagi Nasr, Ahmed; Malhi, Avleen; Bauk, Sanja; Valdez Banda, Osiris; Kujala, Pentti; Soe, Ralf-Martin; Wang, Shan (2026). Hybrid Physics–AI Digital Twin Framework for Shared Mooring Systems in Deepwater Floating Offshore Wind Farms. Journal of Marine Science and Application,  1−25.   
+DOI: [10.36227/TECHRXIV.176703996.62757261/V1](https://doi.org/10.36227/techrxiv.176703996.62757261/v1)*
