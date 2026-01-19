@@ -24,7 +24,6 @@ Email: ahmed@ahmdngi.io | LinkedIn: https://www.linkedin.com/in/ahmdngi/
 **Sept. 2009 - Jun. 2014** | **CGPA:** Good  
 
 ---
-
 ## **Experience**  
 
 **Estonian Maritime Academy - TalTech** | Cybersecurity Researcher    
@@ -35,6 +34,7 @@ Email: ahmed@ahmdngi.io | LinkedIn: https://www.linkedin.com/in/ahmdngi/
 - Training and Awareness Programs for Maritime Cybersecurity.  
 - Continuous Monitoring and Real-Time Threat Intelligence.  
 - Cybersecurity Research and Development.  
+- Log Analysis & Visualization.  
 
 **IT College - TalTech** | System Administrator  
 **Tallinn, Estonia** | **Jun. 2022 - Present**  
@@ -66,8 +66,8 @@ Email: ahmed@ahmdngi.io | LinkedIn: https://www.linkedin.com/in/ahmdngi/
 
 ## **Skills**  
 
-  - **Programming Languages:** Python, Java, Bash, GO.  
-- **Tools / Platforms:** Ansible, Zabbix, Grafana, OpenStack, Terraform, Packer, rsyslog, Git.  
+- **Programming Languages:** Python, Java, Bash, GO.  
+- **Tools / Platforms:** Ansible, Zabbix, Wazuh (SIEM/XDR), ELK Stack, Grafana, OpenStack, Terraform, Packer, rsyslog, Git.  
 - **Databases:** MySQL, MariaDB.  
 
 ---
@@ -103,11 +103,10 @@ I built an HPC resource accounting system that automatically gathers cluster job
 CyberSecPro is an EU-funded initiative (€6.7M) to enhance Higher Education Institutions' role in delivering practical, working-life cybersecurity skills. The project focuses on developing hands-on training frameworks for securing critical infrastructure and driving trustworthy digital transformation.
 
 **My Contributions**
-- Conducted comprehensive **OSINT (Open-Source Intelligence)** attacks to identify Vexposed attack surfaces and information leakage
+- Conducted comprehensive **OSINT (Open-Source Intelligence)** attacks to identify exposed attack surfaces and information leakage
 - Performed **penetration testing** on simulated critical infrastructure environments
 - Developed and executed **offensive security methodologies** for vulnerability assessment
 - Contributed to creating practical training modules for workforce cybersecurity upskilling
-
 
 
 **[DigiMaris: Smart Marine Pollution Monitoring & Digital Response Service](https://centralbaltic.eu/project/digimaris/)**  
@@ -120,8 +119,8 @@ CyberSecPro is an EU-funded initiative (€6.7M) to enhance Higher Education Ins
 DigiMaris is an Interreg Central Baltic-funded project (€2.9M) focused on enhancing marine oil spill response between Finland and Estonia. The initiative develops autonomous Small Unmanned Surface Vessels (USVs) equipped with advanced sensors and a unified digital service platform to provide real-time monitoring and cross-border environmental protection in the Gulf of Finland. 
 
 **My Contributions** 
-- Security of Autonomous Systems: Evaluated the cybersecurity posture of Small Unmanned Surface Vessels (USVs), focusing on the protection of telemetry and command-and-control (C2) links.
-- Data Integrity Assurance: Developed protocols to ensure the integrity and authenticity of sensor data transmitted from mobile marine platforms to land-based digital service centers.
+- Security of Autonomous Systems: Evaluatio of the cybersecurity posture of **Small Unmanned Surface Vessels (USVs)**, focusing on the protection of telemetry and command-and-control (C2) links.
+- Data Integrity Assurance: Protocols development to ensure the integrity and authenticity of sensor data transmitted from mobile marine platforms to land-based digital service centers.
 - Vulnerability Assessment of IoT Sensors: Conducted security analysis on specialized environmental sensors and IoT gateways to mitigate risks of data spoofing or unauthorized access.
 - Interoperable Service Hardening: Contributed to the secure architecture of the unified digital service platform, ensuring safe cross-border data exchange between Finnish and Estonian emergency response agencies.  
 
