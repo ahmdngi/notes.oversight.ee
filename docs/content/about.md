@@ -8,7 +8,7 @@ Cybersecurity Researcher at **Estonian Maritime Academy - TalTech**
 System Administrator at **TalTech High Performance Computing Center**  
 Email: ahmed@ahmdngi.io | LinkedIn: https://www.linkedin.com/in/ahmdngi/   
 
----
+
 ## **Education** 
 
 **PhD's Degree in Maritime Cybersecurity**  
@@ -23,7 +23,7 @@ Email: ahmed@ahmdngi.io | LinkedIn: https://www.linkedin.com/in/ahmdngi/
 **Zagazig University** - Zagazig, Egypt   
 **Sept. 2009 - Jun. 2014** | **CGPA:** Good  
 
----
+
 ## **Experience**  
 
 **Estonian Maritime Academy - TalTech** | Cybersecurity Researcher    
@@ -62,7 +62,7 @@ Email: ahmed@ahmdngi.io | LinkedIn: https://www.linkedin.com/in/ahmdngi/
 - Well-experienced in project management for Saudi Aramco.  
 - Supervise and review the preparations of design.  
 
----
+
 
 ## **Skills**  
 
@@ -70,7 +70,7 @@ Email: ahmed@ahmdngi.io | LinkedIn: https://www.linkedin.com/in/ahmdngi/
 - **Tools / Platforms:** Ansible, Zabbix, Wazuh (SIEM/XDR), ELK Stack, Grafana, OpenStack, Terraform, Packer, rsyslog, Git.  
 - **Databases:** MySQL, MariaDB.  
 
----
+
 
 ## **IT Projects**  
 
@@ -89,8 +89,6 @@ The project aimed to set up TrueNAS on a dedicated server, configure storage poo
 *“Databases, SLURM Accounting, GPFS Block Usage”*  
 I built an HPC resource accounting system that automatically gathers cluster job and file system usage data via Python, securely transfers it over SSH, and stores primary records in a central database. It periodically updates usage metrics—such as CPU, GPU, memory, and storage then generates detailed usage and cost summaries. This setup streamlines and simplifies monitoring, billing, and resource management in HPC environments.
 
-
----
 
 ## **Academic Projects**  
 **[CyberSecPro: Hands-On Cybersecurity Education Framework](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43152860/101083594/DIGITAL?order=DESC&pageNumber=1&pageSize=50&sortBy=title&keywords=CyberSecPro&isExactMatch=true)**
@@ -124,7 +122,6 @@ DigiMaris is an Interreg Central Baltic-funded project (€2.9M) focused on enha
 - Vulnerability Assessment of IoT Sensors: Conducted security analysis on specialized environmental sensors and IoT gateways to mitigate risks of data spoofing or unauthorized access.
 - Interoperable Service Hardening: Contributed to the secure architecture of the unified digital service platform, ensuring safe cross-border data exchange between Finnish and Estonian emergency response agencies.  
 
----
 
 ## **Certifications** 
 **IT**  
