@@ -1,1 +1,1 @@
-MkDocs for [ahmdngi.github.io](ahmdngi.github.io)
+MkDocs for [notes.ahmdngi.io](notes.ahmdngi.io)
