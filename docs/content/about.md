@@ -11,7 +11,7 @@ Email: [ahmed@ahmdngi.io](mailto:ahmed@ahmdngi.io)  |  LinkedIn: [linkedin.com/i
 
 ## **Education** 
 
-**PhD's Degree in Maritime Cybersecurity**  
+**PhD Degree in Maritime Cybersecurity**  
 *Tallinn University of Technology - Tallinn, Estonia*  
 **Jan. 2024 - Present** 
 
