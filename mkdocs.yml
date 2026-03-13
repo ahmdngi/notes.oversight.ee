@@ -175,8 +175,9 @@ nav:
   - Library:
       - Cool Tools: content/library/cool-tools.md
       - Makrdown: content/library/markdown.md
-  - PhD:
-      - Tools: content/phd/phd-tools.md
-      - OSINT: content/phd/osint.md
+  - Cybersecurity:
+      - Tools: content/cybersecurity/phd-tools.md
+      - OSINT: content/cybersecurity/osint.md
+      - Nethunter: content/cybersecurity/nethunter.md
       #- Cybersecurity: content/phd/cybersecurity.md
   - About: content/about.md
