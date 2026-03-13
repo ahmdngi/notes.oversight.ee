@@ -3,6 +3,7 @@ hide:
   - navigation
   - toc
 title:  
+description: Personal knowledge base with practical guides on Linux system administration, GPFS/IBM Storage Scale, ZFS, TrueNAS, networking, and enterprise storage solutions.
 ---
 # Ahmed's Notebook
 

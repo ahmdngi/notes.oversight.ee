@@ -4,7 +4,9 @@ site_name: Ahmed's Notebook
 site_url: https://ahmdngi.github.io/
 site_author: Ahmed Nasr
 site_description: >-
-  my notes and guides for sysadmin and storage topics
+  Practical guides and notes on Linux system administration, GPFS/IBM Storage Scale,
+  BeeGFS, ZFS, TrueNAS, networking, and storage solutions. A technical knowledge base
+  for sysadmins and IT professionals.
 
 # Repository
 repo_name: ahmdngi/ahmdngi.github.io
@@ -76,12 +78,14 @@ theme:
 plugins:
   - search
   - glightbox
+  - meta:
   - minify:
       minify_html: true
       minify_js: true
       minify_css: true
       htmlmin_opts:
         remove_comments: true
+  - sitemap
   #- tag
 
 # Extensions
