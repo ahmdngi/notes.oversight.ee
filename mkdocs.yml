@@ -163,14 +163,15 @@ nav:
           #- GPL: content/storage/gpfs-gpl.md
           #- CES: content/storage/gpfs-ces.md
           - Hardware: content/storage/gpfs-hardware.md
-      #- BeeGFS: content/storage/beegfs.md
+      - BeeGFS: content/storage/beegfs.md
       #- TrueNAS Scale: content/storage/scale.md
   - SysAdmin:
       #- content/sysadmin/index.md
       #- Linux: content/sysadmin/linux.md
-      #- PXE: content/sysadmin/pxe.md
+      - PXE: content/sysadmin/pxe.md
       #- backup: content/sysadmin/backup-process.md
       #- Tips: content/sysadmin/tips.md
+      - NIXOS: content/sysadmin/nixos.md
       - Authentication: content/sysadmin/authentication.md
       - MinIO: content/sysadmin/minio.md
   - Library:
