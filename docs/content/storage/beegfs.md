@@ -1,9 +1,6 @@
-Here is the optimized and sanitized version of your BeeGFS documentation. Sensitive IP addresses, hostnames, and specific hardware paths have been replaced with generic placeholders. The structure has been improved for readability and SEO.
-
 ---
-
-**icon: material/bee-flower**
-
+icon: material/bee-flower
+---
 # Comprehensive Guide: BeeGFS Installation and Configuration
 
 This guide details the installation, configuration, and maintenance of a BeeGFS (Parallel File System) cluster. It covers high-availability setups using Buddy Mirroring for both metadata and storage.

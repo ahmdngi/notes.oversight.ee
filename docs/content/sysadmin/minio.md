@@ -1,3 +1,6 @@
+---
+icon: material/toolbox-outline
+---
 # MinIO Guide: Installation, Configuration, and Monitoring
 
 MinIO is a high-performance, S3 compatible object storage server. It's ideal for storing unstructured data such as photos, videos, log files, backups, and container/VM images. This guide will walk you through various aspects of setting up, configuring, and monitoring MinIO on a Linux environment.
