@@ -177,7 +177,15 @@ nav:
       - Makrdown: content/library/markdown.md
   - Cybersecurity:
       - Tools: content/cybersecurity/phd-tools.md
-      - OSINT: content/cybersecurity/osint.md
+      #- OSINT: content/cybersecurity/osint.md
+      - Maritime OSINT Tools:
+          - Vessels and Ports: content/cybersecurity/maritime_osint/vessel_and_port_tracking.md
+          - Administrative and Regulatory: content/cybersecurity/maritime_osint/administrative_regulatory_intelligence.md
+          - Personnel Profiling: content/cybersecurity/maritime_osint/personnel_profiling.md
+          - Geospatial and Environmental Analysis: content/cybersecurity/maritime_osint/geospatial_environmental_analysis.md
+          - Digital Infrastructure Reconnaissance : content/cybersecurity/maritime_osint/digital_infrastructure_reconnaissance.md
+          - Threat Assessment: content/cybersecurity/maritime_osint/analytical_threat_assessment.md
+
       - Nethunter: content/cybersecurity/nethunter.md
       #- Cybersecurity: content/phd/cybersecurity.md
   - About: content/about.md
