@@ -4,7 +4,7 @@
 **Difficulty Level:** Intermediate  
 **Requirements:** Unlocked Bootloader, Windows PC (for Odin), USB Cable
 
-Looking to transform your Samsung Galaxy S20 FE into a powerful penetration testing tool? This guide covers the complete installation of Kali NetHunter using the WirusMOD kernel, including troubleshooting tips for Docker, APT updates, and monitor mode.
+This guide covers the complete installation of Kali NetHunter using the WirusMOD kernel, including troubleshooting tips for Docker, APT updates, and monitor mode.
 
 ---
 
