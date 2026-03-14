@@ -16,7 +16,7 @@ This notebook serves as a personal knowledge base hopefully it will grow overtim
 
 [**Library**](content/library/cool-tools.md) - A collection of notes on general topics.
 
-[**PhD**](content/phd/phd-tools.md) - PhD practical tools and tips.
+[**PhD**](content/cybersecurity/phd-tools.md) - PhD practical tools and tips.
 
 
 

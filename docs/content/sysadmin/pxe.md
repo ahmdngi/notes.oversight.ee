@@ -1,5 +1,6 @@
-**icon: material/package-variant**
-
+---
+icon: material/package-variant
+---
 # HPC Center: PXE Server Implementation Guide
 
 This guide outlines the configuration and workflow of a PXE (Preboot eXecution Environment) server for provisioning nodes in an HPC cluster.

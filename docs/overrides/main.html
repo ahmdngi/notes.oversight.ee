@@ -8,12 +8,14 @@
 {% block extrahead %}
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Ahmed's Notebook" />
+{% if page and page.canonical_url %}
 <meta property="og:url" content="{{ page.canonical_url }}" />
-<meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}Ahmed's Notebook" />
-<meta property="og:description" content="{% if page.meta.description %}{{ page.meta.description }}{% else %}Practical guides and notes on Linux system administration, GPFS, storage solutions, and IT infrastructure.{% endif %}" />
+{% endif %}
+<meta property="og:title" content="{% if page and page.title %}{{ page.title }} - {% endif %}Ahmed's Notebook" />
+<meta property="og:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}Practical guides and notes on Linux system administration, GPFS, storage solutions, and IT infrastructure.{% endif %}" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}Ahmed's Notebook" />
-<meta name="twitter:description" content="{% if page.meta.description %}{{ page.meta.description }}{% else %}Practical guides and notes on Linux system administration, GPFS, storage solutions, and IT infrastructure.{% endif %}" />
+<meta name="twitter:title" content="{% if page and page.title %}{{ page.title }} - {% endif %}Ahmed's Notebook" />
+<meta name="twitter:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}Practical guides and notes on Linux system administration, GPFS, storage solutions, and IT infrastructure.{% endif %}" />
 {% endblock %}
 
 <!-- ------------------------------------------------------------------------ -->
