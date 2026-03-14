@@ -12,21 +12,21 @@ This guide covers the complete installation of Kali NetHunter using the WirusMOD
 
 Before beginning the installation, ensure your device meets the following requirements and download the necessary tools.
 
-**Device Requirements:**
-*   OEM Unlocking enabled.
-*   USB Debugging enabled.
-*   Samsung Galaxy S20 FE (Snapdragon/5G version recommended).
+**Device Requirements:**    
+   OEM Unlocking enabled.   
+   USB Debugging enabled.   
+   Samsung Galaxy S20 FE (Snapdragon/5G version recommended).   
 
-**Required Tools:**
-*   **[Odin Flash Tool](https://odindownload.com/)** (Windows only).
-*   **[TWRP Recovery](https://twrp.me/samsung/samsunggalaxys20fe.html)** (Specific to your device model).
+**Required Tools:**   
+   **[Odin Flash Tool](https://odindownload.com/)** (Windows only).    
+   **[TWRP Recovery](https://twrp.me/samsung/samsunggalaxys20fe.html)** (Specific to your device model).
 
-**Required Files:**
-*   [`vbmeta_disabled.tar`](https://androidfilehost.com/?fid=10620683726822073923)
-*   [`universal-dm-verity-forceencrypt-disabler.zip`](https://zackptg5.com/android.php#disverfe)
-*   [`Nethunter_WirusMOD_r8q_v4.0.zip`](https://androidfilehost.com/?fid=4279422670115701479) (Custom Kernel)
-*   [Kali NetHunter Image](https://www.kali.org/get-kali/#kali-mobile) (Generic ARM64 or specific build)
-*   [`Nethunter_WirusMOD_Binaries.zip`](https://androidfilehost.com/?fid=17248734326145720480)
+**Required Files:**     
+   [`vbmeta_disabled.tar`](https://androidfilehost.com/?fid=10620683726822073923)  
+   [`universal-dm-verity-forceencrypt-disabler.zip`](https://zackptg5.com/android.php#disverfe)    
+   [`Nethunter_WirusMOD_r8q_v4.0.zip`](https://androidfilehost.com/?fid=4279422670115701479) (Custom Kernel)   
+   [`Kali NetHunter Image`](https://www.kali.org/get-kali/#kali-mobile) (Generic ARM64 or specific build)    
+   [`Nethunter_WirusMOD_Binaries.zip`](https://androidfilehost.com/?fid=17248734326145720480)      
 
 ---
 
@@ -82,17 +82,17 @@ Now that the kernel and root are established, install the NetHunter environment.
 
 For full functionality (HID attacks, etc.), specific binaries must be placed manually. Extract the `Nethunter_WirusMOD_r8q_vX.X_binaries.7z` archive.
 
-**Firmware Directories:**
-Copy the extracted firmware files to the corresponding directory based on your Android version:
-*   **Android 11, 12, 13:** `/vendor/firmware_mnt/image/`
-*   **Android 10:** `/vendor/etc/firmware_mnt/image/`
+**Firmware Directories:**   
+Copy the extracted firmware files to the corresponding directory based on your Android version:     
+   **Android 11, 12, 13:** `/vendor/firmware_mnt/image/`   
+   **Android 10:** `/vendor/etc/firmware_mnt/image/`   
 
-**Permissions:**
-*   Set permissions for every copied file to `rw-r--r--` (644).
+**Permissions:**    
+   Set permissions for every copied file to `rw-r--r--` (644).
 
-**HID Keyboard Binary:**
-*   Copy the `hid-keyboard` binary to `system/xbin/`.
-*   Set permissions to `rwxr-xr-x` (755).
+**HID Keyboard Binary:**    
+   Copy the `hid-keyboard` binary to `system/xbin/`.    
+   Set permissions to `rwxr-xr-x` (755).    
 
 ---
 
@@ -169,10 +169,10 @@ usermod -aG sockets root
 
 ---
 
-## Debloat Your Device
-Improve performance and battery life by removing bloatware using these tools:
-*   **[Magisk Module: Systemless Debloater](https://magiskmodule.gitlab.io/magisk-modules-repo/systemless-debloater/)**
-*   **[GUI App: Debloater (F-Droid)](https://f-droid.org/packages/com.sunilpaulmathew.debloater/)**
+## Debloat Your Device  
+Improve performance and battery life by removing bloatware using these tools:      
+   **[Magisk Module: Systemless Debloater](https://magiskmodule.gitlab.io/magisk-modules-repo/systemless-debloater/)**     
+   **[GUI App: Debloater (F-Droid)](https://f-droid.org/packages/com.sunilpaulmathew.debloater/)**     
 
 ---
 
