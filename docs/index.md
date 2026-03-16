@@ -8,115 +8,72 @@ description: A technical knowledge base focusing on Linux system administration,
 
 <div class="home-hero" markdown>
 
-# Infrastructure notes with field context
+# Ahmed's Notebook
 
-Ahmed's Notebook is a personal technical knowledge base built around systems work that has to hold up in production: storage clusters, Linux administration, research workflows, and cybersecurity investigation.
+Practical notes, field-tested configurations, and research threads across Linux infrastructure, enterprise storage, networking, and cybersecurity.
 
-The goal is simple: keep the useful parts close. Fewer polished blog posts, more commands, architecture clues, troubleshooting paths, and notes worth reopening six months later.
+This site is designed as a working notebook: less theory, more things you can reuse when you are troubleshooting, designing, or documenting complex systems.
 
 <div class="home-hero__actions" markdown>
 
-[Browse Storage Systems](content/storage/gpfs-notes.md){ .md-button .md-button--primary }
-[Open SysAdmin Notes](content/sysadmin/authentication.md){ .md-button }
-[See Maritime OSINT Work](content/cybersecurity/maritime_osint/vessel_and_port_tracking.md){ .md-button }
-
-</div>
-
-<div class="home-hero__panel" markdown>
-
-**Built for**
-
-- operators handling complex Linux and storage environments
-- researchers tracking maritime cybersecurity and OSINT threads
-- anyone who wants concise notes instead of over-explained tutorials
+[Start with Storage](content/storage/gpfs-notes.md){ .md-button .md-button--primary }
+[Explore Cybersecurity](content/cybersecurity/maritime_osint/vessel_and_port_tracking.md){ .md-button }
+[About This Project](content/about.md){ .md-button }
 
 </div>
 
 </div>
 
-<div class="home-signal" markdown>
+<div class="home-metrics" markdown>
 
-- **Production-minded**  
-  Focused on systems that need reliability, observability, and repeatable fixes.
-- **Research-connected**  
-  Blends hands-on infrastructure work with doctoral research and analytical workflows.
-- **Fast to navigate**  
-  Organized so you can jump from overview to implementation without extra noise.
+- **Infrastructure-first**  
+  Notes centered on systems that need to stay reliable under pressure.
+- **Research-backed**  
+  Guides informed by hands-on work and doctoral research.
+- **Built to browse fast**  
+  Jump straight into storage, sysadmin, security, or reference material.
 
 </div>
 
-## Explore by domain
+## Explore the notebook
 
-<div class="grid cards home-cards" markdown>
+<div class="grid cards" markdown>
 
-- :material-server-network: **Storage Engineering**  
-  Notes on GPFS / IBM Storage Scale, BeeGFS, hardware planning, and operational troubleshooting for distributed storage platforms.  
-  [Open storage section](content/storage/gpfs-notes.md)
+- :material-harddisk: **Storage Solutions**  
+  GPFS / IBM Storage Scale, BeeGFS, ZFS, and practical guidance for backup, hardware, and distributed storage operations.  
+  [Browse storage notes](content/storage/gpfs-notes.md)
 
-- :material-console-network-outline: **Systems Administration**  
-  Practical references for PXE, authentication, NixOS, MinIO, and repeatable Linux administration workflows.  
-  [View sysadmin guides](content/sysadmin/pxe.md)
+- :material-console-line: **System Administration**  
+  Authentication, PXE, NixOS, MinIO, networking workflows, and repeatable Linux administration patterns.  
+  [View admin guides](content/sysadmin/authentication.md)
 
-- :material-radar: **Cybersecurity and OSINT**  
-  Maritime-focused reconnaissance, infrastructure mapping, threat assessment, and source-driven analytical methods.  
-  [Explore cybersecurity notes](content/cybersecurity/maritime_osint/digital_infrastructure_reconnaissance.md)
+- :material-shield-search: **Cybersecurity**  
+  Maritime OSINT, reconnaissance methods, digital infrastructure analysis, and security-oriented investigation workflows.  
+  [Explore cybersecurity](content/cybersecurity/maritime_osint/vessel_and_port_tracking.md)
 
-- :material-school: **Research Toolkit**  
-  Doctoral research material, working references, and supporting tools for technical investigation and writing.  
-  [Read research notes](content/library/phd-tools.md)
+- :material-school-outline: **PhD Research**  
+  Tools, references, and working material connected to doctoral research in maritime cybersecurity.  
+  [Read PhD notes](content/library/phd-tools.md)
 
-- :material-bookshelf: **Reference Library**  
-  Utility pages, markdown references, and curated tools that keep recurring tasks moving quickly.  
+- :material-bookshelf: **Library**  
+  Useful tools, markdown references, and a growing collection of technical resources worth keeping close.  
   [Open the library](content/library/cool-tools.md)
 
 </div>
 
-## How the notebook works
+## What you'll find here
 
-<div class="home-columns" markdown>
+<div class="grid" markdown>
 
-<div class="home-column" markdown>
+!!! abstract "Operational notes"
+    Commands, configurations, and implementation details captured for real-world use rather than polished theory.
 
-### Operational detail first
+!!! tip "Troubleshooting trails"
+    Pages that document not only the fix, but the path taken to understand the problem.
 
-Pages are written to be useful while working, not just while reading. That means command examples, implementation notes, edge cases, and patterns that survive real troubleshooting.
-
-</div>
-
-<div class="home-column" markdown>
-
-### Cross-domain by design
-
-Storage, networking, security, and research are intentionally kept close together because real systems work rarely stays inside one neat category.
+!!! note "Cross-domain links"
+    Storage, networking, security, and research topics are connected so ideas remain easy to revisit later.
 
 </div>
 
-<div class="home-column" markdown>
-
-### Personal, but reusable
-
-This is a personal notebook, but the content is shaped so other engineers, researchers, and operators can still land on a page and use it immediately.
-
-</div>
-
-</div>
-
-## Start here
-
-<div class="grid cards home-paths" markdown>
-
-- **Need storage troubleshooting?**  
-  Begin with GPFS notes and work outward into hardware and cluster-specific issues.  
-  [Go to GPFS notes](content/storage/gpfs-notes.md)
-
-- **Need system setup references?**  
-  Jump into PXE, NixOS, or authentication depending on whether you are provisioning or stabilizing.  
-  [Go to sysadmin content](content/sysadmin/nixos.md)
-
-- **Need security research context?**  
-  Start with vessel and port tracking, then move into regulatory, personnel, and infrastructure analysis.  
-  [Go to maritime OSINT](content/cybersecurity/maritime_osint/vessel_and_port_tracking.md)
-
-</div>
-
-![Ahmed's Notebook homepage preview showing core sections of the site](assets/images/homepage2.png){ .home-preview }
+![Ahmed's Notebook homepage preview showing storage, sysadmin, and cybersecurity sections](assets/images/homepage.png){ .home-preview }
