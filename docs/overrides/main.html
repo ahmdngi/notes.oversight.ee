@@ -6,16 +6,45 @@
 {% endblock %}
 
 {% block extrahead %}
+{{ super() }}
+{% set default_description = "Practical guides and notes on Linux system administration, GPFS, BeeGFS, storage solutions, networking, and cybersecurity research." %}
+{% set page_title = page.title ~ " - Ahmed's Notebook" if page and page.title else "Ahmed's Notebook" %}
+{% set page_description = page.meta.description if page and page.meta and page.meta.description else default_description %}
+{% set canonical_url = page.canonical_url if page and page.canonical_url else config.site_url %}
+{% set social_image = config.site_url ~ 'assets/images/homepage.png' %}
+<link rel="canonical" href="{{ canonical_url }}" />
+<meta name="description" content="{{ page_description }}" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Ahmed's Notebook" />
-{% if page and page.canonical_url %}
-<meta property="og:url" content="{{ page.canonical_url }}" />
-{% endif %}
-<meta property="og:title" content="{% if page and page.title %}{{ page.title }} - {% endif %}Ahmed's Notebook" />
-<meta property="og:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}Practical guides and notes on Linux system administration, GPFS, storage solutions, and IT infrastructure.{% endif %}" />
+<meta property="og:url" content="{{ canonical_url }}" />
+<meta property="og:title" content="{{ page_title }}" />
+<meta property="og:description" content="{{ page_description }}" />
+<meta property="og:image" content="{{ social_image }}" />
+<meta property="og:image:alt" content="Ahmed's Notebook technical knowledge base preview" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="{% if page and page.title %}{{ page.title }} - {% endif %}Ahmed's Notebook" />
-<meta name="twitter:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}Practical guides and notes on Linux system administration, GPFS, storage solutions, and IT infrastructure.{% endif %}" />
+<meta name="twitter:title" content="{{ page_title }}" />
+<meta name="twitter:description" content="{{ page_description }}" />
+<meta name="twitter:image" content="{{ social_image }}" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ page_title|tojson }},
+  "description": {{ page_description|tojson }},
+  "url": {{ canonical_url|tojson }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Ahmed's Notebook",
+    "url": "https://notes.ahmdngi.io/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Ahmed Nasr",
+    "url": "https://notes.ahmdngi.io/content/about/"
+  }
+}
+</script>
 {% endblock %}
 
 <!-- ------------------------------------------------------------------------ -->

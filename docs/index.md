@@ -39,4 +39,4 @@ Welcome to my digital workspace. This knowledge base compiles my notes, configur
 
 </div>
 
-![homepage](assets/images/homepage.png)
+![Ahmed's Notebook homepage preview showing storage, sysadmin, and cybersecurity sections](assets/images/homepage.png)
