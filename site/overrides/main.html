@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block analytics %}
+<script defer src="https://cloud.umami.is/script.js" data-website-id="3f7d5528-cf78-4a9c-96f3-d43359830c45"></script>
+{{ super() }}
+{% endblock %}
+
+{% block extrahead %}
+{{ super() }}
+{% set default_description = "Practical guides and notes on Linux system administration, GPFS, BeeGFS, storage solutions, networking, and cybersecurity research." %}
+{% set page_title = page.title ~ " - Ahmed's Notebook" if page and page.title else "Ahmed's Notebook" %}
+{% set page_description = page.meta.description if page and page.meta and page.meta.description else default_description %}
+{% set canonical_url = page.canonical_url if page and page.canonical_url else config.site_url %}
+{% set social_image = config.site_url ~ 'assets/images/homepage.png' %}
+<link rel="canonical" href="{{ canonical_url }}" />
+<meta name="description" content="{{ page_description }}" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Ahmed's Notebook" />
+<meta property="og:url" content="{{ canonical_url }}" />
+<meta property="og:title" content="{{ page_title }}" />
+<meta property="og:description" content="{{ page_description }}" />
+<meta property="og:image" content="{{ social_image }}" />
+<meta property="og:image:alt" content="Ahmed's Notebook technical knowledge base preview" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{{ page_title }}" />
+<meta name="twitter:description" content="{{ page_description }}" />
+<meta name="twitter:image" content="{{ social_image }}" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ page_title|tojson }},
+  "description": {{ page_description|tojson }},
+  "url": {{ canonical_url|tojson }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Ahmed's Notebook",
+    "url": "https://notes.ahmdngi.io/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Ahmed Nasr",
+    "url": "https://notes.ahmdngi.io/content/about/"
+  }
+}
+</script>
+{% endblock %}
+
+<!-- ------------------------------------------------------------------------ -->
+<!-- Custom content -->
+{% block content %}
+
+<script>
+  function printPage() {
+    window.print();
+  }
+</script>
+
+<!-- Inline print icon within content -->
+<div class="print-icon" onclick="printPage()" aria-label="Print Page">
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
+    <path d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z" />
+  </svg>
+</div>
+
+{{ super() }}
+{% endblock %}
