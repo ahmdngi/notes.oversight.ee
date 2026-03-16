@@ -60,8 +60,8 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
   font:
-    text: "Noto Sans"
-    code: "Roboto Mono"
+    text: "Space Grotesk"
+    code: "IBM Plex Mono"
   favicon: assets/favicon.ico
   logo: assets/logo.png
   icon:
