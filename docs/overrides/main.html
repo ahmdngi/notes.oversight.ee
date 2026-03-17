@@ -12,9 +12,10 @@
 {% set page_description = page.meta.description if page and page.meta and page.meta.description else default_description %}
 {% set canonical_url = page.canonical_url if page and page.canonical_url else config.site_url %}
 {% set social_image = config.site_url ~ 'assets/images/homepage.png' %}
+{% set robots_content = page.meta.robots if page and page.meta and page.meta.robots else "index, follow, max-image-preview:large" %}
 <link rel="canonical" href="{{ canonical_url }}" />
 <meta name="description" content="{{ page_description }}" />
-<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="robots" content="{{ robots_content }}" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Ahmed's Notebook" />
 <meta property="og:url" content="{{ canonical_url }}" />
