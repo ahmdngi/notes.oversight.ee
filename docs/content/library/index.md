@@ -1,6 +1,10 @@
 ---
 title: Library
 description: Reference material, tools, markdown notes, and research utilities.
+tags:
+  - library
+  - references
+  - tools
 ---
 
 # Library

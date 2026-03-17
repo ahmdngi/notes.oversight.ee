@@ -1,5 +1,10 @@
 ---
 icon: material/alert-circle-outline
+tags:
+  - storage
+  - gpfs
+  - troubleshooting
+  - ibm-storage-scale
 ---
 # **Troubleshooting** 
 

@@ -1,6 +1,10 @@
 ---
 title: Storage
 description: Storage notes covering GPFS, BeeGFS, and related infrastructure topics.
+tags:
+  - storage
+  - infrastructure
+  - linux
 ---
 
 # Storage
@@ -19,7 +23,7 @@ This section brings together the storage platforms and operational notes current
 
     IBM Storage Scale and GPFS notes, troubleshooting references, and hardware context.
 
-    [Open GPFS Notes](gpfs-notes.md)
+    [Open GPFS Notes](gpfs/gpfs-notes.md)
 
 -   :material-server-network:{ .lg .middle }
 

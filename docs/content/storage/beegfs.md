@@ -1,5 +1,10 @@
 ---
 icon: material/bee-flower
+tags:
+  - storage
+  - beegfs
+  - parallel-file-system
+  - hpc
 ---
 
 # Comprehensive Guide: BeeGFS Installation and Configuration

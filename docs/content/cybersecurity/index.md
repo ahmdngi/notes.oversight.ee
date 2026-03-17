@@ -1,6 +1,11 @@
 ---
 title: Cybersecurity
 description: Cybersecurity notes covering maritime OSINT research and related tools.
+tags:
+  - cybersecurity
+  - osint
+  - maritime
+  - research
 ---
 
 # Cybersecurity

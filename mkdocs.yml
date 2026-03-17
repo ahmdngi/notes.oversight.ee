@@ -11,6 +11,7 @@ site_description: >-
 # Repository
 repo_name: ahmdngi/ahmdngi.github.io
 repo_url: https://github.com/ahmdngi/ahmdngi.github.io
+edit_uri: edit/main/docs/
 docs_dir: docs
 
 # Configuration
@@ -77,6 +78,7 @@ theme:
 # Plugins
 plugins:
   - search
+  - offline
   - glightbox
   - minify:
       minify_html: true
@@ -151,17 +153,17 @@ nav:
   - Storage:
       - Overview: content/storage/index.md
       - GPFS:
-          - Notes: content/storage/gpfs-notes.md
-          #- Commands: content/storage/gpfs-commands.md
-          #- Test: content/storage/gpfs-test.md
-          - Troubleshooting: content/storage/gpfs-troubleshooting.md #add AD troubleshooting
-          #- Performance: content/storage/gpfs-performance.md
-          #- Snapshots: content/storage/gpfs-snapshots.md #snapshots and how they work
-          #- Quotas: content/storage/gpfs-quotas.md # quotas and how to set them
-          #- Backup: content/storage/gpfs-backup.md # backup and restore
-          #- GPL: content/storage/gpfs-gpl.md
-          #- CES: content/storage/gpfs-ces.md
-          - Hardware: content/storage/gpfs-hardware.md
+          - Notes: content/storage/gpfs/gpfs-notes.md
+          - Commands: content/storage/gpfs/gpfs-commands.md
+          #- Test: content/storage/gpfs/gpfs-test.md
+          - Troubleshooting: content/storage/gpfs/gpfs-troubleshooting.md #add AD troubleshooting
+          #- Performance: content/storage/gpfs/gpfs-performance.md
+          #- Snapshots: content/storage/gpfs/gpfs-snapshots.md #snapshots and how they work
+          #- Quotas: content/storage/gpfs/gpfs-quotas.md # quotas and how to set them
+          #- Backup: content/storage/gpfs/gpfs-backup.md # backup and restore
+          - GPL: content/storage/gpfs/gpfs-gpl.md
+          #- CES: content/storage/gpfs/gpfs-ces.md
+          - Hardware: content/storage/gpfs/gpfs-hardware.md
       - BeeGFS: content/storage/beegfs.md
       #- TrueNAS Scale: content/storage/scale.md
   - SysAdmin:

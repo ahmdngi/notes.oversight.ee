@@ -1,5 +1,11 @@
 ---
 icon: octicons/key-16
+tags:
+  - sysadmin
+  - authentication
+  - sssd
+  - active-directory
+  - ldap
 ---
 
 ## Abstract

@@ -1,3 +1,12 @@
+---
+tags:
+  - cybersecurity
+  - nethunter
+  - kali
+  - android
+  - mobile-security
+---
+
 # Complete Guide: Install Kali NetHunter on Samsung Galaxy S20 FE
 
 **Target Device:** Samsung Galaxy S20 FE (Model: r8q)  

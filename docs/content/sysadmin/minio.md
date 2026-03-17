@@ -1,5 +1,10 @@
 ---
 icon: material/toolbox-outline
+tags:
+  - sysadmin
+  - minio
+  - object-storage
+  - s3
 ---
 
 # MinIO Guide: Installation, Configuration, and Monitoring

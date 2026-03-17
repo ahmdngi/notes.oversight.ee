@@ -1,5 +1,10 @@
 ---
 icon: material/book-open-variant-outline
+tags:
+  - storage
+  - gpfs
+  - ibm-storage-scale
+  - hpc
 ---
 
 # GPFS Notes

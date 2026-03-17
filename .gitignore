@@ -9,26 +9,17 @@ venv/
 OS_hist.md
 *code*
 # in progress
-**/gpfs-commands.md
 **/gpfs-test.md
 **/gpfs-performance.md
 **/gpfs-snapshots.md 
 **/gpfs-quotas.md 
 **/gpfs-backup.md 
-**/gpfs-gpl.md
-**/gpfs-ces.md
-#**/beegfs.md
 **/scale.md
 **/incident.md
 **/scale-monitor.md
-#**/sysadmin/index.md
-#**/sysadmin/nixos.md
-# **/sysadmin/nethunter.md
 **/linux.md
-#**/pxe.md
 **/backup-process.md
 **/tips.md
 **/cybersecurity.md
 docs/content/storage/gpfs-upgrade.md
-**/index_original.md
 site/

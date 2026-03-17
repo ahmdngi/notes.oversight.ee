@@ -1,5 +1,9 @@
 ---
 icon: material/nix
+tags:
+  - sysadmin
+  - nixos
+  - linux
 ---
 # NixOS
 

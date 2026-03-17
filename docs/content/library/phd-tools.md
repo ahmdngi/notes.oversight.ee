@@ -1,3 +1,11 @@
+---
+tags:
+  - library
+  - phd
+  - research
+  - academic-tools
+---
+
  
 ### **Research Tools**
 - **[Publish-or-Perish](https://harzing.com/resources/publish-or-perish)** - Analyzes academic citations to measure research impact.  

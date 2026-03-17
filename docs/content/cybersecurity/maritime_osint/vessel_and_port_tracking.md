@@ -1,3 +1,12 @@
+---
+tags:
+  - cybersecurity
+  - osint
+  - maritime
+  - vessel-tracking
+  - ports
+---
+
 # Category 1: Vessel and Ports Facility Tracking
 
 ## Overview

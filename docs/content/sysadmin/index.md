@@ -1,6 +1,10 @@
 ---
 title: SysAdmin
 description: Linux system administration, authentication, PXE, NixOS, and MinIO notes.
+tags:
+  - sysadmin
+  - linux
+  - infrastructure
 ---
 
 # SysAdmin

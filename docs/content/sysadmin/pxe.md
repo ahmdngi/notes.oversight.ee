@@ -1,5 +1,10 @@
 ---
 icon: material/package-variant
+tags:
+  - sysadmin
+  - pxe
+  - provisioning
+  - boot
 ---
 # HPC Center: PXE Server Implementation Guide
 
