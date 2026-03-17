@@ -15,17 +15,17 @@ Welcome to my digital workspace. This knowledge base compiles my notes, configur
 !!! info "💾 Storage Solutions"
     High-performance file systems, enterprise storage solutions (GPFS/IBM Scale, ZFS, BeeGFS), and backup strategies using TrueNAS and Proxmox.
     
-    [:octicons-arrow-right-24: Browse Storage Notes](content/storage/gpfs-notes.md)
+    [:octicons-arrow-right-24: Browse Storage Notes](content/storage/index.md)
 
 !!! info "⚙️ System Administration"
     Linux infrastructure management, networking topologies, shell scripting, and automation best practices.
     
-    [:octicons-arrow-right-24: View Admin Guides](content/sysadmin/authentication.md)
+    [:octicons-arrow-right-24: View Admin Guides](content/sysadmin/index.md)
 
 !!! info "🛡️ Cybersecurity"
     Open-Source Intelligence (OSINT) frameworks, maritime security analysis, threat detection, and proactive defense strategies.
     
-    [:octicons-arrow-right-24: Explore Cybersecurity](content/cybersecurity/maritime_osint/vessel_and_port_tracking.md)
+    [:octicons-arrow-right-24: Explore Cybersecurity](content/cybersecurity/index.md)
 
 !!! info "🎓 PhD Research"
     Specific tools, methodologies, and writings related to my doctoral research in maritime cybersecurity.
@@ -35,7 +35,7 @@ Welcome to my digital workspace. This knowledge base compiles my notes, configur
 !!! info "📚 Library"
     A miscellaneous collection of useful tools, general references, and interesting resources.
     
-    [:octicons-arrow-right-24: Open Library](content/library/cool-tools.md)
+    [:octicons-arrow-right-24: Open Library](content/library/index.md)
 
 </div>
 

@@ -149,6 +149,7 @@ extra:
 nav:
   - Home: index.md
   - Storage:
+      - Overview: content/storage/index.md
       - GPFS:
           - Notes: content/storage/gpfs-notes.md
           #- Commands: content/storage/gpfs-commands.md
@@ -164,7 +165,7 @@ nav:
       - BeeGFS: content/storage/beegfs.md
       #- TrueNAS Scale: content/storage/scale.md
   - SysAdmin:
-      #- content/sysadmin/index.md
+      - Overview: content/sysadmin/index.md
       #- Linux: content/sysadmin/linux.md
       - PXE: content/sysadmin/pxe.md
       #- backup: content/sysadmin/backup-process.md
@@ -173,10 +174,12 @@ nav:
       - Authentication: content/sysadmin/authentication.md
       - MinIO: content/sysadmin/minio.md
   - Library:
+      - Overview: content/library/index.md
       - Cool Tools: content/library/cool-tools.md
       - Makrdown: content/library/markdown.md
       - PhD Tools: content/library/phd-tools.md
   - Cybersecurity:
+      - Overview: content/cybersecurity/index.md
       #- OSINT: content/cybersecurity/osint.md
       - Maritime OSINT Tools:
           - Vessels and Ports: content/cybersecurity/maritime_osint/vessel_and_port_tracking.md

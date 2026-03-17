@@ -21,7 +21,7 @@ OS_hist.md
 **/scale.md
 **/incident.md
 **/scale-monitor.md
-**/sysadmin/index.md
+#**/sysadmin/index.md
 #**/sysadmin/nixos.md
 # **/sysadmin/nethunter.md
 **/linux.md
