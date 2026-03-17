@@ -165,7 +165,7 @@ nav:
           #- CES: content/storage/gpfs/gpfs-ces.md
           - Hardware: content/storage/gpfs/gpfs-hardware.md
       - BeeGFS: content/storage/beegfs.md
-      #- TrueNAS Scale: content/storage/scale.md
+      - TrueNAS Scale: content/storage/scale.md
   - SysAdmin:
       - Overview: content/sysadmin/index.md
       #- Linux: content/sysadmin/linux.md
