@@ -1,5 +1,5 @@
 #https://thomaswildetech.com/software-development/github/workflows/deploy-to-github-pages/
-name: Deploy MkDocs site to GitHub Pages
+name: Deploy Zensical site to GitHub Pages
 
 on:
   push:
@@ -28,9 +28,9 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Build MkDocs site
+      - name: Build site
         run: |
-          mkdocs build
+          zensical build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -48,4 +48,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

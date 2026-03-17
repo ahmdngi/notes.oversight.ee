@@ -1,4 +1,4 @@
-mkdocs-material==9.5.38
+zensical
 markdown==3.7
 mkdocs-glightbox==0.4.0
 mkdocs-minify-plugin==0.8.0
