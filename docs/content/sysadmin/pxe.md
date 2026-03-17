@@ -94,9 +94,9 @@ label CentOS_7_Node
   kernel images/centos7/vmlinuz
   append initrd=images/centos7/initrd.img inst.repo=http://<SERVER_IP>/centos7/ inst.ks=http://<SERVER_IP>/compute-ks.cfg
 
-label Rocky_9_NAS
+label Rocky_9_Node
   kernel images/rocky9/vmlinuz
-  append initrd=images/rocky9/initrd.img inst.repo=http://<SERVER_IP>/rocky9/ inst.ks=http://<SERVER_IP>/nas-ks-r9.cfg
+  append initrd=images/rocky9/initrd.img inst.repo=http://<SERVER_IP>/rocky9/ inst.ks=http://<SERVER_IP>/node-ks-r9.cfg
 ```
 
 ### UEFI (`/var/lib/tftpboot/grub.cfg`)
@@ -110,7 +110,7 @@ menuentry 'CentOS 7' {
 }
 
 menuentry 'Rocky 9' {
-  linuxefi images/rocky9/vmlinuz ip=dhcp inst.repo=http://<SERVER_IP>/rocky9/ inst.ks=http://<SERVER_IP>/nas-ks-r9.cfg
+  linuxefi images/rocky9/vmlinuz ip=dhcp inst.repo=http://<SERVER_IP>/rocky9/ inst.ks=http://<SERVER_IP>/node-ks-r9.cfg
   initrdefi images/rocky9/initrd.img
 }
 ```
@@ -144,13 +144,13 @@ To add a new Operating System to the PXE server:
     Add entries to both `/var/lib/tftpboot/pxelinux/pxelinux.cfg/default` (for BIOS) and `/var/lib/tftpboot/grub.cfg` (for UEFI) as shown in Section 3.
 
 5.  **Create Kickstart File:**
-    Place the configuration file (e.g., `nas-ks-r9.cfg`) in `/var/www/html/`.
+    Place the configuration file (e.g., `node-ks-r9.cfg`) in `/var/www/html/`.
 
 ---
 
 ## 5. Kickstart Templates
 
-Below are sanitized templates for automated installation.
+Below are templates for automated installation.
 
 ### Rocky 8 Template
 
