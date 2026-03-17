@@ -75,10 +75,8 @@ For an `N`-wide RAIDZ vdev with parity level `p`:
 3. Streaming read: `(N - p) * single-drive read throughput`
 4. Streaming write: `(N - p) * single-drive write throughput`
 5. Space efficiency: `(N - p) / N`
-6. Fault tolerance:
-   - RAIDZ1: 1 disk
-   - RAIDZ2: 2 disks
-   - RAIDZ3: 3 disks
+6. Fault tolerance depends on parity level:
+   `RAIDZ1 = 1 disk`, `RAIDZ2 = 2 disks`, `RAIDZ3 = 3 disks`
 
 ## Design Considerations
 
