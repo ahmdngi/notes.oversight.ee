@@ -151,5 +151,5 @@ DOI: [10.3233/PMST240042](https://www.researchgate.net/publication/386584688_Exp
 DOI: [10.12716/1001.19.04.11](https://www.researchgate.net/publication/399258521_Maritime_Security_Operations_Center_M-SOC_Systematic_Literature_Review_Research_Gaps_and_Future_Areas_to_Investigate)* 
 - *Shahin, Mahtab;Nagi Nasr, Ahmed; Malhi, Avleen; Bauk, Sanja; Valdez Banda, Osiris; Kujala, Pentti; Soe, Ralf-Martin; Wang, Shan (2026). Hybrid Physics–AI Digital Twin Framework for Shared Mooring Systems in Deepwater Floating Offshore Wind Farms. Journal of Marine Science and Application,  1−25.   
 DOI: [10.36227/TECHRXIV.176703996.62757261/V1](https://doi.org/10.36227/techrxiv.176703996.62757261/v1)* 
-- *Nasr, A.N.; Oruc, A.; Lugo, R.; Zaitseva-Pärnaste, I.; Kujala, P. A Proactive Defense: An Open-Source Intelligence (OSINT) Framework for Maritime Cybersecurity. IEEE Access 2026.    
+- *Nasr, A.N.; Oruc, A.; Lugo, R.; Zaitseva-Pärnaste, I.; Kujala, P. A Proactive Defense: An Open-Source Intelligence (OSINT) Framework for Maritime Cybersecurity. IEEE Access, vol. 14, pp. 39852-39872, 2026.    
 DOI [10.1109/access.2026.3673557](https://doi.org/10.1109/access.2026.3673557)*
