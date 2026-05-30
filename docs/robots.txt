@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://notes.ahmdngi.io/sitemap.xml
+Sitemap: https://notes.oversight.ee/sitemap.xml

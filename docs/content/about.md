@@ -7,7 +7,7 @@ description: Ahmed Nasr - Cybersecurity Researcher and System Administrator at T
 # **Ahmed Nagi Nasr**  
 Cybersecurity Researcher @ **Estonian Maritime Academy - TalTech**  
 System Administrator @ **High Performance Computing Center - TalTech**  
-Email: [ahmed@ahmdngi.io](mailto:ahmed@ahmdngi.io)  |  LinkedIn: [linkedin.com/in/ahmdngi/](https://www.linkedin.com/in/ahmdngi/)  | Website: [notes.ahmdngi.io/](https://notes.ahmdngi.io/)   
+Email: [ahmed.nasr@oversight.ee](mailto:ahmed.nasr@oversight.ee)  |  LinkedIn: [linkedin.com/in/ahmdngi/](https://www.linkedin.com/in/ahmdngi/)  | Website: [notes.oversight.ee/](https://notes.oversight.ee/)   
 
 
 ## **Education** 

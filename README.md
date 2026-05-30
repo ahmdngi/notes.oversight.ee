@@ -1,6 +1,6 @@
 # Ahmed's Notebook
 
-Source for [notes.ahmdngi.io](https://notes.ahmdngi.io/), a personal technical knowledge base built with Zensical and a Material-compatible configuration.
+Source for [notes.oversight.ee](https://notes.oversight.ee/), a personal technical knowledge base built with Zensical and a Material-compatible configuration.
 
 The site focuses on practical notes, guides, and research across:
 
