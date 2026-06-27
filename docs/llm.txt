@@ -1,0 +1,20 @@
+# Ahmed's Notebook — Technical Knowledge Base
+
+Personal notes, guides, and research across infrastructure, storage, and cybersecurity.
+
+## Topics
+
+- Linux system administration
+- Enterprise and HPC storage (GPFS / IBM Storage Scale, BeeGFS)
+- Networking and infrastructure tooling
+- Maritime cybersecurity and vessel OSINT
+- General technical references
+
+## Stack
+
+Built with Zensical (Material-compatible MkDocs theme). Deployed via GitHub Pages.
+
+## Related
+
+- https://cyber.oversight.ee — Oversight: maritime & OT cybersecurity
+- https://haris.oversight.ee — Haris documentation
