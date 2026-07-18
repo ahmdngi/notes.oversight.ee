@@ -4,6 +4,11 @@ Source for [notes.oversight.ee](https://notes.oversight.ee/), a personal technic
 
 The site focuses on practical notes, guides, and research across:
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success?style=flat-square)](https://notes.oversight.ee)
+[![CI](https://img.shields.io/github/actions/workflow/status/ahmdngi/notes.oversight.ee/ci.yml?style=flat-square)](https://github.com/ahmdngi/notes.oversight.ee/actions/workflows/ci.yml)
+[![Language](https://img.shields.io/badge/language-Nix-blue?style=flat-square)]()
+[![Stars](https://img.shields.io/github/stars/ahmdngi/notes.oversight.ee?style=flat-square)](https://github.com/ahmdngi/notes.oversight.ee)
+
 - Linux system administration
 - Enterprise and HPC storage, including GPFS / IBM Storage Scale and BeeGFS
 - Networking and infrastructure tooling
