@@ -9,8 +9,8 @@ site_description: >-
   for sysadmins and IT professionals.
 
 # Repository
-repo_name: ahmdngi/ahmdngi.github.io
-repo_url: https://github.com/ahmdngi/ahmdngi.github.io
+repo_name: ahmdngi/notes.oversight.ee
+repo_url: https://github.com/ahmdngi/notes.oversight.ee
 edit_uri: edit/main/docs/
 docs_dir: docs
 
@@ -137,7 +137,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/solid/house
-      link: ahmdngi.github.io
+      link: https://ahmdngi.github.io
     - icon: fontawesome/brands/github
       link: https://github.com/ahmdngi
       name: Github Account
