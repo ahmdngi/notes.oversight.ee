@@ -4,6 +4,7 @@ hide:
   - toc
 title: Ahmed's Notebook
 description: A technical knowledge base focusing on Linux system administration, enterprise storage solutions, networking, and cybersecurity research.
+date: 2026-05-15
 ---
 
 # Ahmed's Notebook

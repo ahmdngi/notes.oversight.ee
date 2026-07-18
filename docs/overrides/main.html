@@ -55,7 +55,9 @@
         "@type": "Person",
         "name": "Ahmed Nasr"
       },
-      "copyrightYear": "2026",
+      "datePublished": "{{ page.meta.date if page and page.meta and page.meta.date else '2025-01-01' }}",
+      "dateModified": "{{ page.meta.date if page and page.meta and page.meta.date else '2025-01-01' }}",
+      "copyrightYear": "{{ page.meta.date[:4] if page and page.meta and page.meta.date else '2026' }}",
       "inLanguage": "en"
     }
   ]
@@ -66,6 +68,12 @@
 <!-- ------------------------------------------------------------------------ -->
 <!-- Custom content -->
 {% block content %}
+
+{% if page and page.meta and page.meta.date %}
+<p class="md-date-meta">
+  <strong>Last updated:</strong> <time datetime="{{ page.meta.date }}">{{ page.meta.date }}</time>
+</p>
+{% endif %}
 
 <script>
   function printPage() {

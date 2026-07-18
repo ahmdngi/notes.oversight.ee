@@ -7,6 +7,7 @@ tags:
   - gpl
   - kernel
   - operations
+date: 2026-01-15
 ---
 
 # GPFS GPL Update Runbook

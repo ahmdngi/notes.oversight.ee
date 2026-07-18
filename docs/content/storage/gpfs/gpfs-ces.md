@@ -8,6 +8,7 @@ tags:
   - smb
   - nfs
   - backup
+date: 2026-02-01
 ---
 
 # GPFS CES Configuration and Backup

@@ -1,3 +1,7 @@
+---
+date: 2026-04-15
+---
+
 # Category 2: Administrative and Regulatory Maritime Intelligence
 
 ## Overview

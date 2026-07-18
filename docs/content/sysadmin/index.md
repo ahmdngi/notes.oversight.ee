@@ -5,6 +5,7 @@ tags:
   - sysadmin
   - linux
   - infrastructure
+date: 2025-06-15
 ---
 
 # SysAdmin

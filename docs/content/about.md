@@ -3,6 +3,7 @@ hide:
   - navigation
 title: Curriculum Vitae
 description: Ahmed Nasr - Cybersecurity Researcher and System Administrator at TalTech. PhD candidate in Maritime Cybersecurity with expertise in HPC, GPFS, Linux systems, and IT infrastructure.
+date: 2026-05-15
 ---
 # **Ahmed Nagi Nasr**  
 Cybersecurity Researcher @ **Estonian Maritime Academy - TalTech**  

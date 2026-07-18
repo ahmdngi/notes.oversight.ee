@@ -5,6 +5,7 @@ tags:
   - storage
   - infrastructure
   - linux
+date: 2025-08-01
 ---
 
 # Storage

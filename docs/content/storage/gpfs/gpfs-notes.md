@@ -5,6 +5,7 @@ tags:
   - gpfs
   - ibm-storage-scale
   - hpc
+date: 2025-08-01
 ---
 
 # GPFS Notes
@@ -13,7 +14,7 @@ GPFS stands for General Parallel File System, a high-performance clustered file 
 
 
 ## Quorum: 
-![](attachments/notes-1.png){ align=right }
+![GPFS architecture diagram](attachments/notes-1.png){ align=right }
 In GPFS, quorum must be maintained during node failures to keep the cluster online. If quorum is lost, GPFS unmounts local file systems and attempts to reestablish it, triggering file system recovery. Quorum nodes participate in voting to maintain consistency, requiring a simple majority of these nodes to remain active for continued operation.
 
 

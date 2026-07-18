@@ -6,6 +6,7 @@ tags:
   - truenas-scale
   - zfs
   - backup
+date: 2026-02-01
 ---
 
 # TrueNAS SCALE Notes

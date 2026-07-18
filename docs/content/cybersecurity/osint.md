@@ -1,4 +1,8 @@
 
+---
+date: 2025-11-01
+---
+
 ### **Website Recon**
 - **[DNSDumpster.com](https://dnsdumpster.com/)** - DNS recon & research, find & lookup DNS records
 - **[NSLookup.io](https://www.nslookup.io/)** - DNS record lookup and troubleshooting tool

@@ -1,3 +1,7 @@
+---
+date: 2025-07-01
+---
+
 ### **All Over The Place Tools**  
 - **[LM Studio](https://lmstudio.ai/)** - Run and fine-tune LLMs locally on your machine.  
 - **[UndetectedGPT AI Humanizer](https://www.undetectedgpt.ai/humanizer)** - Makes AI-generated text sound more natural and undetectable. 

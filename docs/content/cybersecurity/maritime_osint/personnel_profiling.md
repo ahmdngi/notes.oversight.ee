@@ -1,3 +1,7 @@
+---
+date: 2026-04-15
+---
+
 # Category 3: Personnel Profiling (Human Factor Intelligence)
 
 ## Overview

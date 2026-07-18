@@ -6,6 +6,7 @@ tags:
   - ibm-storage-scale
   - commands
   - operations
+date: 2025-09-15
 ---
 
 # GPFS Command Reference

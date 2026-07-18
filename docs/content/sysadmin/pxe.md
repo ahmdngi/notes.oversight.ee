@@ -5,12 +5,13 @@ tags:
   - pxe
   - provisioning
   - boot
+date: 2025-06-15
 ---
 # PXE Server Implementation Guide
 
 This guide outlines the configuration and workflow of a PXE (Preboot eXecution Environment) server for provisioning nodes in an HPC cluster.
 
-## 1. PXE Boot Process Overview
+## How does the PXE boot process work?
 
 The PXE boot process differs slightly depending on whether the machine uses BIOS or UEFI firmware.
 
@@ -25,7 +26,7 @@ The PXE boot process differs slightly depending on whether the machine uses BIOS
 
 ---
 
-## 2. Server Configuration
+## How do I configure a PXE server?
 
 ### DHCP Server (`/etc/dhcp/dhcpd.conf`)
 
@@ -81,7 +82,7 @@ All boot files are served from `/var/lib/tftpboot/`. Recommended structure:
 
 ---
 
-## 3. Bootloader Configuration
+## How do I configure PXE bootloaders for BIOS and UEFI?
 
 ### BIOS (`/var/lib/tftpboot/pxelinux/pxelinux.cfg/default`)
 
@@ -117,7 +118,7 @@ menuentry 'Rocky 9' {
 
 ---
 
-## 4. Adding a New OS (Example: Rocky 9)
+## How do I add a new OS to my PXE server?
 
 To add a new Operating System to the PXE server:
 
@@ -148,7 +149,7 @@ To add a new Operating System to the PXE server:
 
 ---
 
-## 5. Kickstart Templates
+## What do PXE Kickstart templates look like?
 
 Below are templates for automated installation.
 
@@ -237,7 +238,7 @@ kexec-tools
 %end
 ```
 
-## 6. Machine Reinstallation Workflow
+## How do I reinstall a machine via PXE?
 
 To reinstall a specific machine via PXE:
 
@@ -255,6 +256,48 @@ To reinstall a specific machine via PXE:
 5.  **Cleanup:** Once installation is complete, remove or comment out the static entry in `dhcpd.conf` to prevent a reinstall loop on the next reboot.
 
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to add a new OS to a PXE server",
+  "description": "Step-by-step guide for adding a new operating system (e.g., Rocky 9) to an existing PXE server with BIOS and UEFI support.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepare directories",
+      "text": "Create directories for the new OS under /var/lib/tftpboot/images/ and /var/www/html/.",
+      "url": "https://docs.centos.org/en-US/8-docs/advanced-install/assembly_preparing-for-a-network-install/"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Copy boot files",
+      "text": "Copy vmlinuz and initrd.img from the ISO to the TFTP boot image directory."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Copy OS repository",
+      "text": "Copy the contents of the ISO to the HTTP directory for installation source."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Update bootloaders",
+      "text": "Add BIOS and UEFI boot menu entries pointing to the new kernel, initrd, repo URL, and kickstart file."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Create kickstart file",
+      "text": "Place an automated installation configuration file (kickstart) in the HTTP root directory."
+    }
+  ]
+}
+</script>
 
 ## References & Resources
 

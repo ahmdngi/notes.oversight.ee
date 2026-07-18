@@ -1,3 +1,7 @@
+---
+date: 2026-04-15
+---
+
 # Category 6: Analytical and Threat Assessment Tools
 
 ## Overview

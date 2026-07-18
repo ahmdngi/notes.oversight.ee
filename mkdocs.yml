@@ -80,6 +80,11 @@ plugins:
   - search
   - offline
   - glightbox
+  - rss:
+      match_path: content/.*
+      date_from_meta:
+        as_creation: date
+      pages: true
   - minify:
       minify_html: true
       minify_js: true
@@ -145,6 +150,21 @@ extra:
       name: Linkedin Account
     - icon: fontawesome/solid/envelope
       link: mailto:ahmdngi@hotmail.com
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            opening a GitHub issue.
 
 # Page tree
 nav:
@@ -192,3 +212,6 @@ nav:
       - Nethunter: content/cybersecurity/nethunter.md
       #- Cybersecurity: content/phd/cybersecurity.md
   - About: content/about.md
+  - FAQ: content/faq.md
+  - Changelog: content/changelog.md
+  - Tags: content/tags.md

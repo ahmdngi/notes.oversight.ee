@@ -6,6 +6,7 @@ tags:
   - sssd
   - active-directory
   - ldap
+date: 2025-12-01
 ---
 
 ## Abstract
@@ -32,7 +33,7 @@ Workflow:
 4.  now everything will go through SSSD through the responders 
     
 
-![](./attachments/authentication-1.png)
+![LDAP authentication flow diagram](./attachments/authentication-1.png)
 
 The SSSD daemon (Running locally on the Linux OS) will control the login process. The login program communicates with the configured `pam` and `nss` modules, which in this case are provided by the SSSD package. These modules communicate with the corresponding SSSD responders, which in turn talk to the SSSD Monitor.  
 SSSD looks up the user in the AD directory.

@@ -1,3 +1,7 @@
+---
+date: 2026-04-15
+---
+
 # Category 4: Geospatial and Environmental Analysis
 
 ## Overview

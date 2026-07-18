@@ -1,3 +1,7 @@
+---
+date: 2025-05-01
+---
+
 # Markdown Cheat Sheet
 
 Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
