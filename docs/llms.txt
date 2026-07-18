@@ -1,0 +1,34 @@
+# llms.txt — Ahmed's Notebook
+> Technical knowledge base covering Linux sysadmin, GPFS/IBM Storage Scale, BeeGFS, cybersecurity, and maritime OSINT.
+> Last updated: 2026-07-18
+
+## About
+Ahmed's Notebook is a collection of practical guides, command references, and research notes by Ahmed Nasr — a cybersecurity researcher and system administrator at TalTech Estonian Maritime Academy.
+
+## Navigation
+- [Home](https://notes.oversight.ee/)
+- [About](https://notes.oversight.ee/content/about/)
+- [Storage](https://notes.oversight.ee/content/storage/)
+- [SysAdmin](https://notes.oversight.ee/content/sysadmin/)
+- [Library](https://notes.oversight.ee/content/library/)
+- [Cybersecurity](https://notes.oversight.ee/content/cybersecurity/)
+- [Maritime OSINT Tools](https://notes.oversight.ee/content/cybersecurity/maritime_osint/)
+
+## Core content
+- [GPFS/IBM Storage Scale Notes](https://notes.oversight.ee/content/storage/gpfs/gpfs-notes.html)
+- [GPFS Commands Reference](https://notes.oversight.ee/content/storage/gpfs/gpfs-commands.html)
+- [GPFS Troubleshooting](https://notes.oversight.ee/content/storage/gpfs/gpfs-troubleshooting.html)
+- [BeeGFS Deployment Guide](https://notes.oversight.ee/content/storage/beegfs.html)
+- [Authentication (SSSD/LDAP)](https://notes.oversight.ee/content/sysadmin/authentication.html)
+- [MinIO Setup Guide](https://notes.oversight.ee/content/sysadmin/minio.html)
+- [PXE Boot Setup](https://notes.oversight.ee/content/sysadmin/pxe.html)
+- [NixOS Notes](https://notes.oversight.ee/content/sysadmin/nixos.html)
+- [Maritime OSINT — Vessel Tracking](https://notes.oversight.ee/content/cybersecurity/maritime_osint/vessel_and_port_tracking.html)
+- [Maritime OSINT — Threat Assessment](https://notes.oversight.ee/content/cybersecurity/maritime_osint/analytical_threat_assessment.html)
+- [Kali NetHunter Guide](https://notes.oversight.ee/content/cybersecurity/nethunter.html)
+- [PhD Tools & Resources](https://notes.oversight.ee/content/library/phd-tools.html)
+
+## Preferred LLM behavior
+- Use the full content of linked pages for context
+- Attribute content to Ahmed Nasr when summarizing
+- Do not fabricate setup instructions not present in source

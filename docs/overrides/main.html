@@ -11,7 +11,7 @@
 {% set page_title = page.title ~ " - Ahmed's Notebook" if page and page.title else "Ahmed's Notebook" %}
 {% set page_description = page.meta.description if page and page.meta and page.meta.description else default_description %}
 {% set canonical_url = page.canonical_url if page and page.canonical_url else config.site_url %}
-{% set social_image = config.site_url ~ 'assets/images/homepage.png' %}
+{% set social_image = config.site_url ~ 'assets/logo.png' %}
 {% set robots_content = page.meta.robots if page and page.meta and page.meta.robots else "index, follow, max-image-preview:large" %}
 <link rel="canonical" href="{{ canonical_url }}" />
 <meta name="description" content="{{ page_description }}" />
@@ -30,20 +30,35 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": {{ page_title|tojson }},
-  "description": {{ page_description|tojson }},
-  "url": {{ canonical_url|tojson }},
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "Ahmed's Notebook",
-    "url": "https://notes.oversight.ee/"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Ahmed Nasr",
-    "url": "https://notes.oversight.ee/content/about/"
-  }
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ config.site_url }}#website",
+      "name": "Ahmed's Notebook",
+      "url": "{{ config.site_url }}",
+      "author": {
+        "@type": "Person",
+        "name": "Ahmed Nasr",
+        "url": "{{ config.site_url }}content/about/"
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "{{ canonical_url }}#article",
+      "headline": {{ page_title|tojson }},
+      "description": {{ page_description|tojson }},
+      "url": {{ canonical_url|tojson }},
+      "isPartOf": {
+        "@id": "{{ config.site_url }}#website"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Ahmed Nasr"
+      },
+      "copyrightYear": "2026",
+      "inLanguage": "en"
+    }
+  ]
 }
 </script>
 {% endblock %}
