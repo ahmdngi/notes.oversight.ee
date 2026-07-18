@@ -576,7 +576,7 @@ MinIO supports S3 Object Locking (Object Retention), which enforces Write-Once R
 **Global `mc` Options**  
 All `mc` commands support global options like `--config-dir`, `--quiet`, `--json`, etc. Some can also be set via environment variables.
 
-|   - [MinIO mc Reference - Global Options](https://min.io/docs/minio/linux/reference/minio-mc.html#global-options)
+[MinIO mc Reference - Global Options](https://min.io/docs/minio/linux/reference/minio-mc.html#global-options)
 
 <script type="application/ld+json">
 {
